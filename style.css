@@ -75,3 +75,8 @@ body {
   height: 12px !important;
   width: 12px !important;
 }
+
+.card {
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  @apply relative bg-white  w-[90%]  mx-auto md:max-w-[350px] h-[190px] flex items-center justify-center text-center px-4 py-4 rounded-[20px];
+}
