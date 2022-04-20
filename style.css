@@ -18,6 +18,7 @@
 body {
   font-family: var(--poppins);
   min-height: 100vh;
+  position: relative;
 }
 
 .hero {
@@ -56,6 +57,7 @@ body {
   display: block;
   width: 100%;
   max-height: 500px;
+  min-height: 420px;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
@@ -78,5 +80,25 @@ body {
 
 .card {
   box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
-  @apply relative bg-white  w-[90%]  mx-auto md:max-w-[350px] h-[190px] flex items-center justify-center text-center px-4 py-4 rounded-[20px];
+  @apply relative bg-white  w-[90%]  mx-auto md:max-w-[350px] h-[140px] sm:h-[190px] flex items-center justify-center text-center px-4 py-4 rounded-[20px];
+}
+
+.contact {
+  box-shadow: 0px 0px 96px rgba(0, 0, 0, 0.14);
+}
+
+.form-input {
+  @apply outline-none border-light border-[1px] rounded-[10px] !w-[80vw] sm:!w-[400px] h-[60px] px-6 text-base;
+}
+
+.form-textarea {
+  @apply outline-none border-light border-[1px] rounded-[10px]  !w-[80vw] sm:!w-[400px] h-[120px] px-6 py-3 text-base resize-none;
+}
+
+.form-btn {
+  background: linear-gradient(105.5deg, #775f53 19.57%, #775f53 78.85%);
+  @apply h-[42px] sm:h-[60px]  w-[130px] sm:w-44 rounded-[60px] text-white font-poppins text-base sm:text-lg;
+}
+
+footer {
 }
