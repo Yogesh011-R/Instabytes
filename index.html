@@ -41,7 +41,7 @@
                 that will help you to learn in a most easy way
               </h4>
             </div>
-            <div class="flex gap-8 flex-wrap">
+            <div class="flex gap-8">
               <button>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.bytes.instabytes"
@@ -59,7 +59,7 @@
             </div>
           </div>
 
-          <div class="lg:mt-[40px] justify-self-center flex-1">
+          <div class="lg:mt-[55px] justify-self-center flex-1">
             <img
               class="h-[500px] mt-[-50px] lg:h-[655.88px] lg:mt-0 lg:w-auto mx-auto"
               src="./asstes/hero.png"
@@ -112,7 +112,7 @@
             Sample B.Y.T.E.S
           </h1>
         </div>
-        <div class="h-[65vh] md:h-[80vh]">
+        <div class="h-[600px] md:h-[700px]">
           <div class="swiper">
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -279,9 +279,13 @@
             <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary">
               Contact Us
             </h1>
-            <p class="my-5 sm:my-10 text-sm lg:text-base text-[#5A5A5A]">
+            <a
+              href="https://linktr.ee/instabytes"
+              target="_blank"
+              class="my-5 inline-block sm:my-10 text-sm lg:text-base text-[#5A5A5A]"
+            >
               CDCS Training | ACAMS Training | Trade Finance Jobs Update
-            </p>
+            </a>
             <div class="flex flex-col gap-5 text-sm lg:text-base">
               <div class="flex gap-4 items-center">
                 <img src="./asstes/contant/location.svg" alt="" />
@@ -304,15 +308,23 @@
           <div
             class="justify-self-center mx-auto mt-5 lg:mt-0 flex-1 w-full lg:flex-initial lg:w-auto"
           >
-            <form class="flex flex-col gap-6 items-center w-full">
+            <form
+              class="flex flex-col gap-6 items-center lg:items-stretch w-full"
+            >
               <div>
-                <input class="form-input" type="text" placeholder="Your Name" />
+                <input
+                  class="form-input"
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                />
               </div>
               <div>
                 <input
                   type="text"
                   placeholder="Your Email"
                   class="form-input"
+                  required
                 />
               </div>
               <div>
@@ -320,15 +332,20 @@
                   type="text"
                   placeholder="Your Phone Number"
                   class="form-input"
+                  required
                 />
               </div>
               <div>
                 <textarea
-                  placeholder="Your name"
+                  placeholder="Your Message"
                   class="form-textarea"
+                  required
                 ></textarea>
               </div>
-              <button class="form-btn">Submit</button>
+
+              <div>
+                <button class="form-btn" type="submit">Submit</button>
+              </div>
             </form>
           </div>
         </div>
@@ -342,8 +359,10 @@
               class="font-normal text-base sm:text-lg flex flex-wrap gap-2 text-white justify-center"
             >
               <span class="font-semibold">Contact Us:</span>
-              <span>CDCS Training </span> | <span> ACAMS Training</span> |
-              <span> Trade Finance Jobs Update</span>
+              <a href="https://linktr.ee/instabytes" target="_blank">
+                <span>CDCS Training </span> | <span> ACAMS Training</span> |
+                <span> Trade Finance Jobs Update</span></a
+              >
             </h3>
           </div>
           <h3 class="text-white text-base sm:text-lg mt-2">
