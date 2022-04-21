@@ -35,7 +35,7 @@
                 For Trade Finance Professionals
               </p>
             </div>
-            <div class="my-8 lg:my-16">
+            <div class="my-8 lg:my-12">
               <h4 class="text-sm md:text-xl lg:text-2xl">
                 Aspiring to be CDCS This YEAR!!! Bytes is a platform <br />
                 that will help you to learn in a most easy way
@@ -310,18 +310,22 @@
           >
             <form
               class="flex flex-col gap-6 items-center lg:items-stretch w-full"
+              action="https://formsubmit.co/yogiyogesh079@gmail.com"
+              method="POST"
             >
               <div>
                 <input
                   class="form-input"
                   type="text"
+                  name="name"
                   placeholder="Your Name"
                   required
                 />
               </div>
               <div>
                 <input
-                  type="text"
+                  type="email"
+                  name="email"
                   placeholder="Your Email"
                   class="form-input"
                   required
@@ -330,6 +334,7 @@
               <div>
                 <input
                   type="text"
+                  name="phone number"
                   placeholder="Your Phone Number"
                   class="form-input"
                   required
@@ -337,12 +342,13 @@
               </div>
               <div>
                 <textarea
+                  name="message"
                   placeholder="Your Message"
                   class="form-textarea"
                   required
                 ></textarea>
               </div>
-
+              <input type="hidden" name="_next" value="/thankyou.html" />
               <div>
                 <button class="form-btn" type="submit">Submit</button>
               </div>
