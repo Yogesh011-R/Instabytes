@@ -102,3 +102,50 @@ body {
 
 footer {
 }
+
+.splide__arrow.splide__arrow--prev {
+  left: -80px;
+  background: transparent;
+  font-size: 2rem;
+  color: var(--primary-color) !important;
+}
+.splide__arrow.splide__arrow--next {
+  right: -80px;
+  background: transparent;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 840px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -40px;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -40px;
+  }
+}
+
+.splide__slide img {
+  max-width: 500px;
+  width: 100%;
+  min-height: 420px;
+  max-height: 500px;
+}
+
+@media screen and (max-width: 550px) {
+  .splide__slide img {
+    max-width: 82vw;
+    margin: 0 auto;
+  }
+}
+
+.splide__pagination {
+  bottom: -50px !important;
+}
+
+.splide {
+  margin-top: 4rem;
+}
+
+.splide__pagination__page.is-active {
+  background-color: var(--primary-color) !important;
+}

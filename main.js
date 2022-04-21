@@ -1,3 +1,5 @@
+import Splide from '@splidejs/splide';
+import '@splidejs/splide/dist/css/splide.min.css';
 import Swiper, { Navigation, Pagination, Scrollbar } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -33,3 +35,18 @@ const swiper = new Swiper('.swiper', {
   },
 });
 console.log('🚀 ~ file: main.js ~ line 9 ~ swiper', swiper);
+
+var splide = new Splide('.splide', {
+  perPage: 3,
+  gap: '2rem',
+  breakpoints: {
+    1000: {
+      perPage: 2,
+    },
+    550: {
+      perPage: 1,
+    },
+  },
+});
+
+splide.mount();
