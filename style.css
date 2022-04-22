@@ -19,6 +19,7 @@ body {
   font-family: var(--poppins);
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -104,25 +105,25 @@ footer {
 }
 
 .splide__arrow.splide__arrow--prev {
-  left: -80px;
+  left: -3%;
   background: transparent;
   font-size: 2rem;
   color: var(--primary-color) !important;
 }
 .splide__arrow.splide__arrow--next {
-  right: -80px;
+  right: -3%;
   background: transparent;
   font-size: 2rem;
 }
 
-@media screen and (max-width: 840px) {
+/* @media screen and (max-width: 840px) {
   .splide__arrow.splide__arrow--prev {
     left: -40px;
   }
   .splide__arrow.splide__arrow--next {
     right: -40px;
   }
-}
+} */
 
 .splide__slide img {
   max-width: 500px;
@@ -148,4 +149,8 @@ footer {
 
 .splide__pagination__page.is-active {
   background-color: var(--primary-color) !important;
+}
+
+.splide__pagination__page {
+  background-color: #fff !important;
 }
