@@ -105,15 +105,93 @@ footer {
 }
 
 .splide__arrow.splide__arrow--prev {
-  left: -3%;
+  left: -5%;
   background: transparent;
   font-size: 2rem;
   color: var(--primary-color) !important;
 }
 .splide__arrow.splide__arrow--next {
-  right: -3%;
+  right: -5%;
   background: transparent;
   font-size: 2rem;
+}
+
+@media (max-width: 1600px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -2%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -2%;
+  }
+}
+@media (max-width: 1530px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -5%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -5%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -2%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -2%;
+  }
+}
+@media (max-width: 1280px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -5%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -5%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -2%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -2%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -8%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -8%;
+  }
+}
+@media (max-width: 845px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -2%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -2%;
+  }
+}
+
+@media (max-width: 780px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -5%;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -5%;
+  }
+}
+
+@media (max-width: 620px) {
+  .splide__arrow.splide__arrow--prev {
+    left: -30px;
+  }
+  .splide__arrow.splide__arrow--next {
+    right: -30px;
+  }
 }
 
 /* @media screen and (max-width: 840px) {
@@ -128,11 +206,11 @@ footer {
 .splide__slide img {
   max-width: 500px;
   width: 100%;
-  min-height: 420px;
+  min-height: 500px;
   max-height: 500px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 620px) {
   .splide__slide img {
     max-width: 82vw;
     margin: 0 auto;

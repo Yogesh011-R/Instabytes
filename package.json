@@ -14,7 +14,6 @@
     "vite": "^2.9.2"
   },
   "dependencies": {
-    "@splidejs/splide": "^4.0.1",
-    "swiper": "^8.1.1"
+    "@splidejs/splide": "^4.0.1"
   }
 }
