@@ -15,7 +15,7 @@
   </head>
   <body>
     <section class="hero h-[760px] lg:h-[738px]">
-      <main class="container mx-auto p-5">
+      <main class="container mx-auto p-5 lg:px-16">
         <header class="sm:pt-5">
           <div class="">
             <img class="w-[60px] sm:w-auto" src="./asstes/logo.svg" alt="" />
@@ -106,44 +106,51 @@
     </section>
 
     <section class="bg-[#775f5333]">
-      <div class="container mx-auto p-5 mt-16">
+      <div class="lg:container mx-auto md:p-5 py-5 mt-16">
         <div class="text-center font-semibold">
           <h1 class="text-2xl sm:text-3xl lg:text-4xl text-primary">
             Sample B.Y.T.E.S
           </h1>
           <div class="h-[600px] md:h-[650px]">
-            <div id="splide" class="splide">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/1.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/2.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/3.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/4.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/5.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/6.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/7.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/8.jpg" />
-                  </li>
-                  <li class="splide__slide">
-                    <img src="./asstes/carousel/9.jpg" />
-                  </li>
-                </ul>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div></div>
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/4.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/5.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/6.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/7.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/8.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/9.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asstes/carousel/6.jpg" alt="" />
+                </div>
               </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
             </div>
           </div>
         </div>
@@ -378,45 +385,3 @@
     <script type="module" src="/main.js"></script>
   </body>
 </html>
-
-<!-- <div class="h-[600px] md:h-[650px]">
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/1.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/2.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/3.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/4.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/5.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/6.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/7.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/8.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/9.jpg" alt="" />
-      </div>
-      <div class="swiper-slide">
-        <img src="./asstes/carousel/6.jpg" alt="" />
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  </div>
-
-</div> -->
